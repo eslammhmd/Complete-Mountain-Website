@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- calling M.F css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- calling icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Website Using Html , scss && Javascript</title>
+</head>
+<body>
+    <!------------------------------------------------------- start navbar--------------------------------------------- -->
+    
+    <nav id="score">
+        <div class="container">
+            <a href="#home" class="nav-logo"><h3><span>M</span>ountain</h3></a>
+            <a href=""><img src="img/logo/svg.svg" width="70" height="70" alt=""></a>
+            <ul id="nav-items">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#citations">citations</a></li>
+                <li><a class="nav-link" href="#general-info">general info</a></li>
+                <li><a class="nav-link other-links" href="#other">Others +</a></li>
+                <li><a class="nav-link" href="#contact">CME</a></li>
+            </ul>
+            <div class="themes-btn">
+                <button class="custom-btn">Sign In</button>
+            </div>
+            <div class="menu-btn">
+                <button class="active" id="menu-open"><i class='bx bx-menu-alt-right icons'></i></button>
+                <button id="menu-close"><i class='bx bx-x icons'></i></button>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------- end navbar--------------------------------------------- -->
+
+
+
+    <!------------------------------------------------------- start megamenu--------------------------------------------- -->
+
+    <div class="mega-menu">
+        <div class="container">
+        <div class="links-others">
+            <li><a href="#">Definition</a></li>
+            <li><a href="#">Volcanoes</a></li>
+            <li><a href="#">Fold mountains</a></li>
+            <li><a href="#">Block mountains</a></li>
+            <li><a href="#">Erosion</a></li>
+        </div>
+        <div class="links-others">
+            <li><a href="#">Climate</a></li>
+            <li><a href="#">Ecology</a></li>
+            <li><a href="#">Climate change</a></li>
+            <li><a href="#">Superlatives</a></li>
+            <li><a href="#">References</a></li>
+        </div>
+        <div class="mega-iamge"><img src="img/other.jpg"  alt=""></div>
+    </div>
+    </div>
+
+        <!------------------------------------------------------- end megamenu--------------------------------------------- -->
+
+
+ 
+
+    <!-------------------------------------------- start main section----------------------------------------------- -->
+    <main>
+        <div class="slide-container active">
+            <div class="slide">
+                <p>A mountain is an elevated portion of the Earth's crust, generally with steep sides that show significant exposed bedrock.
+                     Although definitions vary, a mountain may differ from a plateau in having a limited summit area, and is usually higher
+                      than a hill, typically rising at least 300 metres (1,000 feet) above the surrounding land. A few mountains are isolated summits,
+                       but most occur in mountain ranges.[1]</p>
+                       <div class="custom"><a href="https://en.wikipedia.org/wiki/Mountain" target="_blank" class="btn">learn more</a></div>
+            </div>
+        </div>
+        <div class="slide-container ">
+            <div class="slide">
+                <p>Mountains are formed through tectonic forces, erosion, or volcanism, which act on time scales of up to tens of millions of years.[2] Once mountain building ceases, mountains are slowly leveled through the action of weathering, through slumping and other forms of mass wasting, as well as through erosion by rivers and glaciers.[2]</p>
+                <div class="custom"><a href="https://en.wikipedia.org/wiki/Mountain" target="_blank" class="btn">visiting</a></div>
+            </div>
+        </div>
+        <div id="prev" onclick="prev()"><i class='bx bxs-left-arrow icons'></i></div>
+        <div id="next" onclick="next()"><i class='bx bxs-right-arrow icons'></i></div>
+    </main>
+    <!-------------------------------------------- end main section----------------------------------------------- -->    
+
+    <!-------------------------------------------- btn to show in scroll----------------------------------------- -->
+    <button class="show-up"><i class='show bx bxs-chevron-up-circle'></i></button>
+
+    <!-------------------------------------------- btn to show in scroll----------------------------------------- -->
+
+
+<!-- ----------------------------------------start citatons sections--------------------------------------------------------- -->
+<section id="citations" class="citations"> 
+    <div class="container">
+        <article>
+            <div class="img-info"><img src="img/one.jpg" alt=""></div>
+            <div class="img-info"><img src="img/two.jpg" alt=""></div>
+        </article>
+        <article class="title">
+            <span dir="rtl"><h4>﴿ "وَتَرَى الْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ إِنَّهُ خَبِيرٌ بِمَا  تَفْعَلُونَ"<br> [ النمل: 88] ﴾</h4></span>
+            <span dir="rtl"><h4>﴿ "وَجَعَلَ فِيهَا رَوَاسِيَ مِن فَوْقِهَا وَبَارَكَ فِيهَا وَقَدَّرَ فِيهَا أَقْوَاتَهَا فِي أَرْبَعَةِ أَيَّامٍ سَوَاء لِّلسَّائِلِينَ "<br> [ فصلت: 10] ﴾</h4></span>
+            <span dir="rtl"><h4>﴿ "وَجَعَلْنَا فِي الْأَرْضِ رَوَاسِيَ أَن تَمِيدَ بِهِمْ وَجَعَلْنَا فِيهَا فِجَاجًا سُبُلًا لَعَلَّهُمْ يَهْتَدُونَ"<br> [  الأنبياء: 31] ﴾</h4></span>
+
+    </article>
+    <article>
+        <div class="img-info"><img src="img/three.jpg" alt=""></div>
+        <div class="img-info"><img src="img/four.jpg" alt=""></div>
+    </article>
+    </div>
+</section>
+
+<!-- --------------------------------------------end citatons section--------------------------------------------------------- -->
+
+
+
+<!-- ---------------------------------------------start geneal info section------------------------------------------------ -->
+
+<section id="general-info" class="general-info">
+    <div class="container">
+        <article class="general-title">
+            <h3>UN Environmental Programme's </h3>
+            <ul>
+                <li>Class 1: Elevation greater than 4,500 m (14,764 ft).</li>
+                <li>Class 2: Elevation between 3,500 m (11,483 ft) and 4,500 m (14,764 ft).</li>
+                <li>Class 3: Elevation between 2,500 m (8,202 ft) and 3,500 m (11,483 ft)</li>
+                <li>Class 4: Elevation between 1,500 m (4,921 ft) and 2,500 m (8,202 ft).</li>
+                <li>Class 5: Elevation between 1,000 m (3,281 ft) and 1,500 m (4,921 ft).</li>
+                <li>Class 6: Elevation between 300 m (984 ft) and 1,000 m (3,281 ft).</li>
+            </ul>
+            <a href="https://en.wikipedia.org/wiki/Mountain" class="btn">Help</a>
+        </article>
+        <article class="general-image">
+            <img src="img/general.jpg" alt="">
+        </article>
+    </div>
+</section>
+
+<!-- ------------------------------------------------end general info section---------------------------------------------- -->
+<!-------------------------------------------------- start cms section------------------------------------------------------  -->
+
+
+<!-- ----------------------------------------start progress section------------------------------------------ -->
+
+<section class="progress-section">
+    
+    <div class="container">
+
+        <article class="progress--1 all-progress">
+            <span class="info-psg" data-progress="66">01</span>
+           <i class='bx bx-droplet progress-icon'></i>
+        </article>
+    
+        <article class="progress--2 all-progress">
+            <span class="info-psg" data-progress="67">02</span>
+            <i class='bx bx-cube-alt progress-icon' ></i>
+        </article>
+    
+        <article class="progress--3 all-progress">
+            <span class="info-psg" data-progress="68">03</span>
+            <i class='bx bx-hive progress-icon' ></i>
+        </article>
+    
+        <article class="progress--4 all-progress">
+            <span class="info-psg" data-progress="69">04</span>
+            <i class='bx bx-pound progress-icon' ></i>
+        </article>
+    
+        <article class="progress--5 all-progress">
+            <span class="info-psg" data-progress="70">05</span>
+            <i class='bx bx-diamond progress-icon' ></i>
+        </article>
+    
+        <article class="progress--6 all-progress">
+            <span class="info-psg" data-progress="71">06</span>
+            <i class='bx bx-code-curly progress-icon' ></i>
+        </article>
+    
+        <article class="progress--7 all-progress">
+            <span class="info-psg" data-progress="72">07</span>
+            <i class='bx bx-search progress-icon' ></i>
+        </article>
+    
+        <article class="progress--8 all-progress">
+            <span class="info-psg" data-progress="73">08</span>
+            <i class='bx bx-bulb progress-icon' ></i>
+        </article>
+    </div>
+</section>
+<!-- ----------------------------------------end progress section------------------------------------------ -->
+
+
+<!-- -----------------------------------------------start card image------------------------------------------------ -->
+
+<section class="main-card">
+    <div class="container">
+        <article class="card">
+            <h3>something good</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nesciunt, nulla magnam distinctio ut commodi?</p>
+            <button class="btn">more details</button>
+        </article>
+        <article class="card second">
+            <h3>something good</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nesciunt, nulla magnam distinctio ut commodi?</p>
+            <button class="btn">more details</button>
+        </article>
+    </div>
+</section>
+
+
+
+    <!-- -------------------------------------------------start cms section----------------------------------------------------- -->
+
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h3>Subscribe For Get Update Every New <span>Templates</span></h3>
+        <p>my job is to create and mentain the front-end of the applications.</p>
+        <div class="subscribe">
+            <input type="text"  name="subs" id="subs" placeholder="Send Me Message" ><label for="subs">Contact</label>
+        </div>
+    </div>
+    </section>
+    
+    <!-- -------------------------------------------------end cms section----------------------------------------------------- -->
+
+
+
+
+
+<!-- -----------------------------------------------end card image------------------------------------------------ -->
+
+<!-- ---------------------------------------------start footer section---------------------------------------------------- -->
+<footer>
+    <div class="container">
+        <h3>Eslam Mhmd</h3>
+        <p class="footer-copy">&#169;All right reserved </p>
+        <div class="social-icon">
+            <i class='bx bxl-linkedin social'></i>
+            <i class='bx bxl-instagram social' ></i>
+            <i class='bx bxl-twitter social' ></i>
+            <i class='bx bxl-github social' ></i>
+
+        </div>
+    </div>
+</footer>
+<!-- -------------------------------------------------end footer section -------------------------------------------->
+    <script src="main.js"></script>
+</body>
+</html>
